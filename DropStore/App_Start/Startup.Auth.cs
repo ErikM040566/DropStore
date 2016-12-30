@@ -58,11 +58,11 @@ namespace DropStore
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "819995437275-4vpuajp5ta1eiifk0cvjb2b2ohk5qd6s.apps.googleusercontent.com",
+                ClientSecret = "JemOfTmvfLNyJNetFwGqaFwC"
+            });
         }
     }
 }
